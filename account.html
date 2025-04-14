@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Account - E-commerce website</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <div class="navbar">
+        <div class="upper">
+            <a href="#" id="myadmin">My admin</a>
+        </div>
+        <div class="lower">
+            <img src="./Images/logo.jpg" alt="" class="logo">
+            <ul class="nav-btns">
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="#">SEARCH</a></li>
+            </ul>
+            <ul class="profile-tabs">
+                <li><a href="cart.html">YOUR CART</a></li>
+                <li><a href="#" id="loginStatus">LOGIN</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="account-container">
+        <div class="account-details">
+            <h1 class="page-title">My Account</h1>
+            <div class="account-info">
+                <div class="info-group">
+                    <h3>Personal Information</h3>
+                    <p><strong>Full Name:</strong> <span id="account-name">-</span></p>
+                    <p><strong>Email:</strong> <span id="account-email">-</span></p>
+                </div>
+                <div class="info-group">
+                    <h3>Order History</h3>
+                    <div id="order-history">
+                        <p>No orders yet.</p>
+                    </div>
+                </div>
+                <div class="info-group">
+                    <h3>Account Actions</h3>
+                    <button class="account-btn" id="editProfile">Edit Profile</button>
+                    <button class="account-btn" id="changePassword">Change Password</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html> 

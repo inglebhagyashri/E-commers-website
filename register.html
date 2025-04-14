@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register - E-commerce website</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="navbar">
+        <div class="upper">
+            <a href="#" id="myadmin">My admin</a>
+        </div>
+        <div class="lower">
+            <img src="./Images/logo.jpg" alt="" class="logo">
+            <ul class="nav-btns">
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="#">SEARCH</a></li>
+            </ul>
+            <ul class="profile-tabs">
+                
+                <li><a href="cart.html">YOUR CART</a></li>
+            <li><a href="account.html">MY ACCOUNT</a></li>
+                <li><a href="#" id="loginStatus">LOGIN</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="auth-container">
+        <div class="auth-form">
+            <h1 class="page-title">Register</h1>
+            <form id="registerForm">
+                <div class="form-group">
+                    <label for="registerName">Full Name</label>
+                    <input type="text" id="registerName" required>
+                </div>
+                <div class="form-group">
+                    <label for="registerEmail">Email</label>
+                    <input type="email" id="registerEmail" required>
+                </div>
+                <div class="form-group">
+                    <label for="registerPassword">Password</label>
+                    <input type="password" id="registerPassword" required>
+                </div>
+                <div class="form-group">
+                    <label for="confirmPassword">Confirm Password</label>
+                    <input type="password" id="confirmPassword" required>
+                </div>
+                <button type="submit" class="auth-btn">Register</button>
+            </form>
+            <p class="auth-link">Already have an account? <a href="login.html">Login here</a></p>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html> 

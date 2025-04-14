@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login - E-commerce website</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="navbar">
+        <div class="upper">
+            <a href="#" id="myadmin">My admin</a>
+        </div>
+        <div class="lower">
+            <img src="./Images/logo.jpg" alt="" class="logo">
+            <ul class="nav-btns">
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="#">SEARCH</a></li>
+            </ul>
+            <ul class="profile-tabs">
+                <li><a href="cart.html">YOUR CART</a></li>
+            <li><a href="account.html">MY ACCOUNT</a></li>
+
+                <li><a href="#" id="loginStatus">LOGIN</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="auth-container">
+        <div class="auth-form">
+            <h1 class="page-title">Login</h1>
+            <form id="loginForm">
+                <div class="form-group">
+                    <label for="loginEmail">Email</label>
+                    <input type="email" id="loginEmail" required>
+                </div>
+                <div class="form-group">
+                    <label for="loginPassword">Password</label>
+                    <input type="password" id="loginPassword" required>
+                </div>
+                <button type="submit" class="auth-btn">Login</button>
+            </form>
+            <p class="auth-link">Don't have an account? <a href="register.html">Register here</a></p>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html> 
